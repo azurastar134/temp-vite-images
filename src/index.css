@@ -81,6 +81,10 @@ html {
   --backgroundColor: var(--dark-mode-bg-color);
 }
 
+body.no-transition {
+  transition: none;
+}
+
 body {
   background: var(--backgroundColor);
   color: var(--textColor);
@@ -351,6 +355,10 @@ Search Form
   border-radius: 0;
 
   /* border-right: none; */
+}
+
+.search-input-darkmode {
+  transition: none;
 }
 
 .search-form .btn {
